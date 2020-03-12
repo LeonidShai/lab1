@@ -25,7 +25,7 @@ def current_time(request):
     return HttpResponse(html)
 
 def current_handler404(request, exception):
-    return HttpResponse("<html><body>This page not found. Error 404</body></html>", status=404)
+    return HttpResponse("<html><body><img src='image404.png' alt='IMG'></body></html>", status=404)
 
 handler404 = current_handler404
 
