@@ -24,6 +24,11 @@ def current_time(request):
     html = f"<html><body>Now, time is: {now}</body></html>"
     return HttpResponse(html)
 
+def current_handler404(request, exception):
+    return HttpResponse("<html><body>This page not found. Error 404</body></html>", status=404)
+
+handler404 = current_handler404
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('time', current_time),

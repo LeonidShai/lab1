@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9903bad6-a69d-4432-b871-f3ad57655be3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9903bad6-a69d-4432-b871-f3ad57655be3" name="Default Changelist" comment="comm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,27 @@
       <recent name="H:\my\devpyweb\lab1\login\templates\login" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.lab1">
+  <component name="RunManager" selected="Django tests.Test: parolo.static">
+    <configuration name="Test: parolo.static" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="parolo.static" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: parolo.static" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
@@ -109,8 +130,30 @@
       <workItem from="1583338857778" duration="2729000" />
       <workItem from="1583342605885" duration="1512000" />
       <workItem from="1583763396081" duration="6253000" />
-      <workItem from="1584032519601" duration="4214000" />
+      <workItem from="1584032519601" duration="13131000" />
     </task>
+    <task id="LOCAL-00001" summary="comm">
+      <created>1584037203994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584037203994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comm">
+      <created>1584044888636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584044888636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comm">
+      <created>1584045064570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584045064570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +164,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="comm" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="67" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1584045064479">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="865" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1584045064479" />
     <state width="1253" height="241" key="GridCell.Tab.0.bottom" timestamp="1583784988323">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -137,10 +184,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="241" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1583784988323" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1583764141690">
+    <state x="205" y="31" key="SettingsEditor" timestamp="1584043914374">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1583764141690" />
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1584043914374" />
     <state x="367" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584032775567">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
