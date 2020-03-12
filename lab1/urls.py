@@ -27,5 +27,7 @@ def current_time(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('time', current_time),
-    path('login/', include('login.urls'))
+    path('login/', include('login.urls')),
+    path('parolo/', include('parolo.urls')),
+    path('passw/', include('passw.urls'))
 ]
