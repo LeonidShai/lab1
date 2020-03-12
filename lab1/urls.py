@@ -15,8 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.http import HttpResponse
+
+import datetime
+
+def current_time(request):
+    now = datetime.datetime.now()
+    html = f"<html><body>Now, time is: {now}</body></html>"
+    return HttpResponse(html)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('time', current_time),
     path('login/', include('login.urls'))
 ]
