@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
+from django.shortcuts import render
 
 import datetime
 
@@ -27,11 +28,16 @@ def current_time(request):
 def current_handler404(request, exception):
     return HttpResponse("<html><body>This page not found. Error 404!<br>Pages only: login, passw, parolo, time</html></body>", status=404)
 
-handler404 = current_handler404
+def e_hand404(request, exception):
+    return render(request, 'err404/index.html')
+
+handler404 = e_hand404
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('time', current_time),
     path('login/', include('login.urls')),
     path('parolo/', include('parolo.urls')),
-    path('passw/', include('passw.urls'))
+    path('passw/', include('passw.urls')),
+    path('err404/', include('err404.urls'))
 ]
