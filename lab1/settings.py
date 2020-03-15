@@ -26,6 +26,7 @@ SECRET_KEY = '$p8*@+3=kp=j8yxk$4ii1k7f!0wd(03w#hip2k_j7sjx=c@h)5'
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1']
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'login.apps.LoginConfig',
     'parolo.apps.ParoloConfig',
     'passw.apps.PasswConfig',
+    'err404.apps.Err404Config',
 ]
 
 MIDDLEWARE = [
