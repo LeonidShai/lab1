@@ -25,7 +25,7 @@ SECRET_KEY = '$p8*@+3=kp=j8yxk$4ii1k7f!0wd(03w#hip2k_j7sjx=c@h)5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['leoshait13.pythonanywhere.com']
 # ALLOWED_HOSTS = []
 
 
